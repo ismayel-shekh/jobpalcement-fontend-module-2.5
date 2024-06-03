@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+    <title>My Restaurant</title>
+  </head>
+  <body>
+    <!-- This is header section -->
+    <header>
+      <nav class="navbar">
+        <div class="left">
+          <h1 class="text-2xl font-bold text-red-600">My Restaurant</h1>
+        </div>
+        <div class="right">
+          <ul class="nav-items">
+            <li><a class="hover:text-red-600" href="index.html">Home</a></li>
+            <li>
+              <a class="hover:text-red-600" href="menu.html">Menu</a>
+            </li>
+            <li><a class="hover:text-red-600" href="reservations.html">Reservations</a></li>
+
+            <li><a class="hover:text-red-600" href="contact.html">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <h2 class="text-6xl text-red-900 font-bold my-4 text-center ">Our Menu</h2>
+    <main class="col-span-10  min-h-screen w-full">
+        <div>
+          <h1 class="text-3xl font-bold text-center my-12">Appetizers</h1>
+
+          <!-- uni hoitesen card er parent -->
+          <div class="my-12 px-24 flex flex-wrap gap-6 justify-center">
+            <!-- card 1 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="./food-image/2.jpg"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                    Mozzarella Sticks
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Price: 30$</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- card-2 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="./food-image/4.jpg"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                    Baked Beans
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Price: 50$</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+        </div>
+      </main>
+      <main class="col-span-10 bg-gray-200 min-h-screen w-full">
+        <div>
+          <h1 class="text-3xl font-bold text-center my-12">Main Courses</h1>
+
+          <!-- uni hoitesen card er parent -->
+          <div class="my-12 px-24 flex flex-wrap gap-6 justify-center">
+            <!-- card 1 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="./food-image/3.jpg"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                    Ketchup
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Price: 10$</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- card-2 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="./food-image/5.jpg"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                    Mayonnaise
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Price: 60$</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+        </div>
+      </main>
+      <main class="col-span-10 bg-gray-200 min-h-screen w-full">
+        <div>
+          <h1 class="text-3xl font-bold text-center my-12">Desserts</h1>
+
+          <!-- uni hoitesen card er parent -->
+          <div class="my-12 px-24 flex flex-wrap gap-6 justify-center">
+            <!-- card 1 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="./food-image/1.jpg"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                    Drive-Thru
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Price: 30$</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- card-2 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="./food-image/3.jpg"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                    Fried
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Price: 90$</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+        </div>
+      </main>
+      <main class="col-span-10  min-h-screen w-full">
+        <div>
+          <h1 class="text-3xl font-bold text-center my-12">Beverages
+        </h1>
+
+          <!-- uni hoitesen card er parent -->
+          <div class="my-12 px-24 flex flex-wrap gap-6 justify-center">
+            <!-- card 1 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="./food-image/7.jpg"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                    Chicken Nuggets
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Price: 50$</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- card-2 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="./food-image/6.jpg"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                    Burger
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Price: 30$</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+        </div>
+      </main>
+
+    <!-- This is footer section -->
+    <footer>
+      <div class="mt-20 bg-gray-900 py-16 flex justify-center items-center">
+        <div>
+          <h1 class="text-3xl text-center text-red-600">My Restaurant</h1>
+          <p class="text-white text-center mt-2">All rights received ©</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

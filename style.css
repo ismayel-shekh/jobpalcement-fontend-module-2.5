@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    border-bottom: 2px solid black;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .nav-items {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .nav-items li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+  }
+  
+  .logo {
+    color: rgb(199, 10, 4);
+  }
+  
+  .banner {
+    background-image: url("home.jpg");
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    height: 60vh;
+  }
+  
+  .hero {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+  }
