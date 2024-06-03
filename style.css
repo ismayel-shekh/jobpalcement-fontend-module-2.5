@@ -40,7 +40,7 @@
   }
   
   .banner {
-    background-image: url("home.jpg");
+    background-image: url("./food-image/home.jpg");
     background-size: cover;
     background-position:center ;
     background-repeat: no-repeat;
